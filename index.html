@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoose - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Miracle Shoes</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#men">Men</a></li>
+                <li><a href="#women">Women</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="product-card">
+            <h2>01</h2>
+            <img src="nike-shoe1.jpg" alt="Nike Running Shoe">
+            <p>Nike Running Shoe</p>
+            <p>$200.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <h2>02</h2>
+            <img src="nike-shoe2.jpg" alt="Nike Sports Shoe">
+            <p>Nike Sports Shoe</p>
+            <p>$180.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Shoose. All rights reserved.</p>
+        <p><a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let cartCount = 0;
+            const cartCounter = document.getElementById("cart-count");
+            const addToCartButtons = document.querySelectorAll(".add-to-cart");
+            
+            addToCartButtons.forEach(button => {
+                button.addEventListener("click", function() {
+                    cartCount++;
+                    cartCounter.textContent = cartCount;
+                });
+            });
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: #fff;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 250px;
+        }
+        .add-to-cart {
+            background: #000;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>

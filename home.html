@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoose - Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Shoose</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Step Into Style</h1>
+        <p>Discover the latest trends in footwear.</p>
+        <a href="products.html" class="btn">Shop Now</a>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products">
+        <h2>Featured Shoes</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="assets/images/shoe1.jpg" alt="Shoe 1">
+                <h3>Classic Sneakers</h3>
+                <p>$120.00</p>
+                <button class="add-to-cart" data-name="Classic Sneakers" data-price="120">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/shoe2.jpg" alt="Shoe 2">
+                <h3>Sports Shoes</h3>
+                <p>$150.00</p>
+                <button class="add-to-cart" data-name="Sports Shoes" data-price="150">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

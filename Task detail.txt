@@ -1,0 +1,38 @@
+pg 1
+
+Internshippakistan.carrer@gmail.com 
+Frontend Development - Shoe Brand E-Commerce Website (Shoose) 
+(Week#05 Jan-Feb Cohort 2025) 
+Objective: 
+Develop a basic e-commerce website for a shoe brand (Shoose) with essential functionalities. 
+The website does not need to be fully responsive, but it should work well on a standard desktop screen. 
+Required Features & Pages: 
+1. Home Page 
+Banner with featured shoes. 
+Categories: Sneakers, Formal, Sports, Casual. 
+List of trending shoes. 
+2. Product Listing Page 
+Display shoes in a grid format (Image, Name, Price, "Add to Cart"). 
+Basic filtering: By price and category. 
+Sorting options: Low to High. High to Low. ERNSHIP 
+PAKISTAN 
+3. Product Details Page 
+Large shoe image, name, price, and description. 
+Size selection (Dropdown or Buttons). 
+"Add to Cart" button. 
+4. Shopping Cart Page 
+Display added products with price & quantity. 
+Cart total calculation. 
+"Proceed to Checkout" button. 
+5. Checkout Page 
+Simple form for name, address, and contact number. 
+Payment method: Cash on Delivery.
+
+pg 2
+
+Internshippakistan.carrer@gmail.com 
+Tech Stack: 
+HTML, CSS, JavaScript 
+Basic React.js (Optional) 
+✓ Local Storage for Cart Data (Optional) 
+
